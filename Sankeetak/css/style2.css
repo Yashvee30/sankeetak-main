@@ -1,0 +1,67 @@
+/* Reset some default browser styles */
+body, h1, img {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #d5d5d5;
+    padding: 10px 0;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+#div1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8; /* Light background color */
+    padding: 20px;
+    position: relative;
+    margin-top: 20px;
+    border-bottom: 2px solid #ddd; /* Border for separation */
+}
+
+/* Logo styles */
+#logo-container {
+    position: absolute;
+    left: 20px; /* Distance from the left edge */
+}
+
+#logo {
+    height: 50px; /* Adjust based on your logo size */
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Heading styles */
+h1 {
+    font-size: 30px;
+    color: #333; /* Dark text color */
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 80px; /* Space for the logo */
+}

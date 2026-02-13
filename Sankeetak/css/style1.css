@@ -1,0 +1,150 @@
+#div1 {
+    width: 98vw;
+    height: 20vw;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+text{
+    font-family: 'Times New Roman', Times, serif ;
+}
+a{
+    font-family: 'Times New Roman', Times, serif ;
+}
+body{
+    
+    background-image: url("./media/bg.jpg");
+    background-size: cover; /* Ensure the background image covers the entire page */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the background image */
+}
+#sankeetak-text{
+    height: 25%;
+    transition: transform 0.5s ease;
+    animation: enlargeOnLoad 0.5s ease forwards;
+}
+
+@keyframes enlargeOnLoad {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1); /* Enlarge the image by 10% */
+    }
+}
+
+header {
+    background-color: #d5d5d5;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* Styling for the conversion links as buttons */
+#conversion-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
+.button-link {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0 20px; /* Adjust spacing between buttons */
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.button-link:hover {
+    background-color: #ffffff; 
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Add drop shadow */
+    color: #0e0e0e;
+}
+
+
+/* Styling for the project-info section */
+#project-info {
+    background-color: #f4f4f4; /* Light grey background for contrast */
+    padding: 20px; /* Padding around the text */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 20px auto; /* Centered with margin */
+    margin-top: 150px;
+    white-space: normal; /* Allow text to wrap */
+    overflow: hidden; /* Hide overflow content */
+    word-wrap: break-word; /* Break long words onto the next line */
+    height: 70vh;
+    width: 90vw;
+}
+
+#project-info h2 {
+    font-size: 54px; /* Size of the heading */
+    color: #333; /* Darker text color for contrast */
+    margin-bottom: 15px; /* Space below the heading */
+    text-align: left; /* Center align the heading */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* General styles for typing effect */
+/* General styles for typing effect */
+.typing-effect {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline; /* Ensure the text is inline for typing effect */
+    width: 100%; /* Make sure the width allows wrapping */
+    text-wrap: wrap;
+    font-size: 18px;
+}
+
+/* Keyframes for typing and cursor blinking */
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Padding around the text */ 
+    bottom: 0; /* Align at the bottom */
+    width: 100%; /* Full width */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for a slight lift effect */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Adjust font size */
+}
+
+
